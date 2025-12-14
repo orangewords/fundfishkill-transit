@@ -42,8 +42,9 @@ sections:
         - statistic: "½ Mile Short"
           description: |
             Bus stops at the Beacon Post Office, not the Beacon Metro-North train station
-        - statistic: "Bad for commuting"
+        - statistic: "Poor Hours"
           description: |
+            Commuters to New York City cannot take this bus.
             8 trains leave before the first bus starts at 7:30AM.
             0 buses from Beacon to Fishkill during the 6PM hour.
         - statistic: "No Sundays"

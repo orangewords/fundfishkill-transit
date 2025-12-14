@@ -29,7 +29,7 @@ sections:
     content:
       title: ""
       text: |
-        ![Fund Route F for Fishkill](/media/bus-logo.jpg)
+        ![Fund Route F for Fishkill](/media/bus-logo.png)
     design:
       css_class: "bg-white text-center"
       spacing:

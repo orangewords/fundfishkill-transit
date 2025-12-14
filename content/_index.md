@@ -43,10 +43,11 @@ sections:
           description: |
             Bus stops at Post Office  
             —not the train station
-        - statistic: "Starts at 7:30 AM"
+        - statistic: "Too limited for commuters"
           description: |
             8 trains leave before  
-            the first bus arrives
+            the first bus starts at 7:30AM.
+            There are no buses from Beacon to Fishkill during the 6PM hour.
         - statistic: "No Sundays"
           description: |
             Zero service for work,  

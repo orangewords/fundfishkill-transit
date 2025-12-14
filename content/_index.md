@@ -72,7 +72,7 @@ sections:
           description: |
             seniors & youth  
             who can't drive
-        - statistic: "1,000%"
+        - statistic: "1k%"
           description: |
             ridership increase when  
             Beacon Loop went free

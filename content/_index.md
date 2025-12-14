@@ -138,11 +138,11 @@ sections:
       items:
         - name: "Sue Serino"
           role: "Dutchess County Executive, December 2024"
-          image: "testimonial-1.jpg"
+          image: "serino.jpeg"
           text: "By linking our communities through public transit, we're expanding access to jobs, strengthening tourism, reducing traffic and emissions, and ensuring that residents from both sides of the Hudson River can move easily and affordably."
         - name: "Governor Kathy Hochul"
           role: "Announcing the fare-free bridge shuttle, December 2024"
-          image: "testimonial-1.jpg"
+          image: "hochul.jpeg"
           text: "Better access to fast and reliable transit is an affordability win for New Yorkers. This enhanced service will save people time, improve connections and strengthen communities."
     design:
       spacing:

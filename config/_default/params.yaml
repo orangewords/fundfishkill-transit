@@ -25,8 +25,8 @@ hugoblox:
     mode: light
     pack: "default"
     colors:
-      primary: "#1a365d"           # Navy blue from logo
-      secondary: "#c53030"         # Orange/red accent
+      primary: "#054b7a"           # Navy blue from logo
+      secondary: "#d94506"         # Orange/red accent
       neutral: ""
     colors_light: {}
     colors_dark: {}
@@ -34,10 +34,10 @@ hugoblox:
       background: ""
       foreground: ""
       header:
-        background: "#1a365d"
+        background: "#054b7a"
         foreground: "#ffffff"
       footer:
-        background: "#1a365d"
+        background: "#054b7a"
         foreground: "#ffffff"
 
   # ────────────────────────────────────────────────────────────────────────────

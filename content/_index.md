@@ -10,8 +10,10 @@ design:
 sections:
   - block: hero
     content:
-      title: Fund Route F for Fishkill
-      text: A campaign to extend, expand, and eliminate fares on Dutchess County Public Transit Bus Route F connecting Fishkill to the Beacon Metro-North station
+      title: ""
+      text:|
+        ![Fund Route F for Fishkill](bus-logo.png)
+    A campaign to extend, expand, and eliminate fares on Dutchess County Public Transit Bus Route F connecting Fishkill to the Beacon Metro-North station
       primary_action:
         text: Take Action
         url: "#take-action"
@@ -28,8 +30,7 @@ sections:
     id: logo-display
     content:
       title: ""
-      text: |
-        ![Fund Route F for Fishkill](bus-logo.png)
+      text: 
     design:
       css_class: "bg-white text-center"
       spacing:

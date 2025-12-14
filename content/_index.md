@@ -50,7 +50,7 @@ sections:
         - statistic: "No Sundays"
           description: |
             Zero service for work,  
-            church, or family
+            family, church, or errands
     design:
       css_class: "bg-orange-50"
       spacing:

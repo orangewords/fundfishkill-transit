@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: Hochul Funded the Bridge. Fund Route F for Fishkill.
+      title: Fund Route F for Fishkill
       text: A campaign to extend, expand, and eliminate fares on Dutchess County Public Transit Bus Route F connecting Fishkill to the Beacon Metro-North station
       primary_action:
         text: Take Action

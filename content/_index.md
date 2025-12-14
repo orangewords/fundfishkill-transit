@@ -22,15 +22,18 @@ sections:
     design:
       css_class: "dark"
       background:
-        color: "#1a365d"
-        image:
-          # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
-          filters:
-            brightness: 0.5
-          size: cover
-          position: center
-          parallax: false
+        color: "#054b7a"
+
+  - block: markdown
+    id: logo-display
+    content:
+      title: ""
+      text: |
+        ![Fund Route F for Fishkill](/media/bus-logo.jpg)
+    design:
+      css_class: "bg-white text-center"
+      spacing:
+        padding: ["2rem", 0, "2rem", 0]
 
   - block: stats
     id: problem
@@ -49,7 +52,7 @@ sections:
             Zero service for work,  
             church, or family visits
     design:
-      css_class: "bg-red-50 dark:bg-red-900"
+      css_class: "bg-orange-50"
       spacing:
         padding: ["2rem", 0, "2rem", 0]
 
@@ -74,7 +77,7 @@ sections:
             ridership increase when  
             Beacon Loop went free
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "bg-gray-100"
       spacing:
         padding: ["2rem", 0, "2rem", 0]
 
@@ -124,7 +127,7 @@ sections:
             text: Read Full Research
             url: "#resources"
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "bg-gray-100"
 
   - block: testimonials
     content:
@@ -150,17 +153,17 @@ sections:
       text: |
         Contact County Executive Sue Serino and ask her to fund Route F improvements.
         
-        📧 CountyExec@dutchessny.gov  •  📞 (845) 486-2000
+        **Email:** CountyExec@dutchessny.gov  
+        **Phone:** (845) 486-2000  
+        **Address:** 22 Market Street, 6th Floor, Poughkeepsie, NY 12601
         
-        📍 22 Market Street, 6th Floor, Poughkeepsie, NY 12601
-        
-        #ConnectFishkill  •  #FundRouteF  •  #SundaysCount
+        **#ConnectFishkill  ·  #FundRouteF  ·  #SundaysCount**
       button:
         text: Send an Email Now
         url: "mailto:CountyExec@dutchessny.gov?subject=Fund%20Route%20F%20Improvements&body=Dear%20County%20Executive%20Serino%2C%0A%0AI%20am%20writing%20to%20ask%20you%20to%20improve%20DCPT%20Route%20F%20by%3A%0A%0A1.%20Extending%20the%20route%20to%20Beacon%20Metro-North%20station%0A2.%20Adding%20early%20morning%20service%20by%205%3A30%20AM%0A3.%20Implementing%20Sunday%20service%0A4.%20Eliminating%20fares%2C%20following%20the%20successful%20Beacon%20Free%20Loop%20model%0A%0AThank%20you%20for%20your%20consideration.%0A%0ASincerely%2C%0A%5BYour%20Name%5D"
     design:
       card:
-        css_class: "bg-primary-700"
+        css_class: "bg-[#054b7a] text-white"
         css_style: ""
 
   - block: markdown
@@ -181,7 +184,7 @@ sections:
         ### Research Documents
         - [Full demographic and transit analysis](#) — Detailed research supporting this campaign
     design:
-      css_class: "bg-gray-100 dark:bg-gray-900"
+      css_class: "bg-gray-100"
 
   - block: cta-card
     content:
@@ -192,6 +195,6 @@ sections:
         url: "#take-action"
     design:
       card:
-        css_class: "bg-red-600"
+        css_class: "bg-[#d94506] text-white"
         css_style: ""
 ---

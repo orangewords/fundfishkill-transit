@@ -1,20 +1,22 @@
 # Navigation Links
-#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
-#   The `weight` parameter defines the order that the links will appear in.
+# Fund Route F for Fishkill Campaign
 
 main:
   - name: Home
     url: /#top
     weight: 10
-  - name: Features
-    url: /#features
+  - name: The Problem
+    url: /#problem
     weight: 20
-  - name: Solutions
-    url: /#solutions
+  - name: The Solution
+    url: /#solution
     weight: 30
-  - name: Resources
+  - name: Why It Works
+    url: /#facts
     weight: 40
-    hasChildren: true
-  - parent: Resources
-    name: Blog
-    url: blog/
+  - name: Resources
+    url: /#resources
+    weight: 50
+  - name: Take Action
+    url: /#take-action
+    weight: 60

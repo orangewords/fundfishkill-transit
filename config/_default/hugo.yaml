@@ -1,11 +1,9 @@
 # Configuration of Hugo
-# Guide: https://docs.hugoblox.com/tutorial/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Fund Route F for Fishkill Campaign
 
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
-baseURL: 'https://orangewords.github.io/fundfishkill-transit/' # Website URL
+# Website name (displayed from params.yaml identity.name)
+title: 'Fund Route F for Fishkill'
+baseURL: 'https://orangewords.github.io/fundfishkill-transit/'
 
 ############################
 ## PAGE OPTIONS
@@ -24,7 +22,6 @@ cascade:
     commentable: true
     show_related: true
     share: true
-    # Just use Breadcrumb for navigation on blog post pages?
     show_breadcrumb: false
     header:
       navbar:
@@ -33,7 +30,6 @@ cascade:
   - _target:
       path: /blog/*
       kind: section
-    # Set the listing view
     view: date-title-summary
 
 ############################

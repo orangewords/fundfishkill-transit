@@ -46,7 +46,7 @@ sections:
           description: |
             Commuters to New York City cannot use the F bus.
             8 trains leave before the first bus starts at 7:30AM.
-            0 buses from Beacon to Fishkill during the 6PM hour.
+            0 buses travel from Beacon to Fishkill during the 6PM hour.
         - statistic: "No Sundays"
           description: |
             Zero service for work, family, church, or errands

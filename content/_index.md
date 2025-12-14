@@ -28,6 +28,7 @@ sections:
     id: logo-display
     content:
       title: ""
+      image: bus-logo.png
       text: |
         ![Fund Route F for Fishkill](/media/bus-logo.png)
     design:
@@ -113,7 +114,7 @@ sections:
             - "Ridership jumped from 3,000 to 38,000+ after going fare-free"
             - "City invested just $11,000/year to subsidize fares"
             - "Sunday service added in January 2025 due to demand"
-          image: build-website.png
+          image: free-loop.jpeg
           button:
             text: View Fact Sheet
             url: "#resources"
@@ -124,7 +125,7 @@ sections:
             - "NY's STOA program allocates ~$3.7M/year to DCPT based on ridership"
             - "Governor Hochul made the 2026 bridge shuttle fare-free all year"
             - "FTA Section 5307 formula funding increases with passenger miles"
-          image: coffee.jpg
+          image: NYSCapitolPanorama.jpeg
           button:
             text: Read Full Research
             url: "#resources"

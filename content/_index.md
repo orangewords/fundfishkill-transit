@@ -163,7 +163,7 @@ sections:
         url: "mailto:CountyExec@dutchessny.gov?subject=Fund%20Route%20F%20Improvements&body=Dear%20County%20Executive%20Serino%2C%0A%0AI%20am%20writing%20to%20ask%20you%20to%20improve%20DCPT%20Route%20F%20by%3A%0A%0A1.%20Extending%20the%20route%20to%20Beacon%20Metro-North%20station%0A2.%20Adding%20early%20morning%20service%20by%205%3A30%20AM%0A3.%20Implementing%20Sunday%20service%0A4.%20Eliminating%20fares%2C%20following%20the%20successful%20Beacon%20Free%20Loop%20model%0A%0AThank%20you%20for%20your%20consideration.%0A%0ASincerely%2C%0A%5BYour%20Name%5D"
     design:
       card:
-        css_class: "bg-[#054b7a] text-white"
+        css_class: "bg-[#054b7a] text-white [&_*]:text-white"
         css_style: ""
 
   - block: markdown
@@ -195,6 +195,6 @@ sections:
         url: "#take-action"
     design:
       card:
-        css_class: "bg-[#d94506] text-white"
+        css_class: "bg-[#d94506] text-white [&_*]:text-white"
         css_style: ""
 ---

@@ -1,6 +1,6 @@
 ---
-title: 'Home'
-date: 2023-10-24
+title: 'Fund Route F for Fishkill'
+date: 2024-12-13
 type: landing
 
 design:
@@ -10,28 +10,19 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: Hochul Funded the Bridge. Fund Route F for Fishkill.
+      text: A campaign to extend, expand, and eliminate fares on DCPT Route F—connecting Fishkill to Beacon Metro-North station
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
+        text: Take Action
+        url: "#take-action"
+        icon: megaphone
       secondary_action:
-        text: Read the docs
-        url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+        text: Read the Facts
+        url: "#facts"
     design:
-    #   spacing:
-    #     padding: [0, 0, 0, 0]
-    #     margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
       css_class: "dark"
       background:
-        color: "navy"
+        color: "#1a365d"
         image:
           # Add your image background to `assets/media/`.
           filename: bg-triangles.svg
@@ -40,106 +31,167 @@ sections:
           size: cover
           position: center
           parallax: false
+
   - block: stats
+    id: problem
     content:
       items:
-        - statistic: "1M+"
+        - statistic: "½ Mile Short"
           description: |
-            Websites built  
-            with Hugo Blox
-        - statistic: "10k+"
+            Bus stops at Beacon Post Office  
+            —not the train station
+        - statistic: "7:30 AM Start"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "3k+"
+            8 Metro-North trains leave  
+            before the first bus arrives
+        - statistic: "No Sundays"
           description: |
-            Discord community  
-            for support
+            Zero service for work,  
+            church, or family visits
     design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
+      css_class: "bg-red-50 dark:bg-red-900"
       spacing:
-        padding: ["1rem", 0, "1rem", 0]
+        padding: ["2rem", 0, "2rem", 0]
+
+  - block: stats
+    id: impact
+    content:
+      items:
+        - statistic: "22,000+"
+          description: |
+            Fishkill residents  
+            need better transit
+        - statistic: "7%"
+          description: |
+            of Dutchess households  
+            have no car
+        - statistic: "111,000+"
+          description: |
+            seniors & youth  
+            who can't drive
+        - statistic: "1,000%"
+          description: |
+            ridership increase when  
+            Beacon Loop went free
+    design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      spacing:
+        padding: ["2rem", 0, "2rem", 0]
+
   - block: features
-    id: features
+    id: solution
     content:
-      title: Features
-      text: Build your site with blocks 🧱
+      title: Four Actions to Fix Route F
+      text: We're asking Dutchess County to make these changes
       items:
-        - name: Optimized SEO
-          icon: magnifying-glass
-          description: Automatic sitemaps, RSS feeds, and rich metadata take the pain out of SEO and syndication.
-        - name: Fast
-          icon: bolt
-          description: Super fast page load with Tailwind CSS and super fast site building with Hugo.
-        - name: Easy
-          icon: sparkles
-          description: One-click deployment to GitHub Pages. Have your new website live within 5 minutes!
-        - name: No-Code
-          icon: code-bracket
-          description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
-        - name: Highly Rated
-          icon: star
-          description: Rated 5-stars by the community.
-        - name: Swappable Blocks
-          icon: rectangle-group
-          description: Build your pages with blocks - no coding required!
+        - name: Extend the Route
+          icon: map-pin
+          description: Reach Beacon Metro-North station—provide a true one-seat ride to rail for Fishkill commuters.
+        - name: Start Earlier
+          icon: clock
+          description: Begin service by 5:30 AM so commuters can catch trains arriving in NYC by 8:00 AM.
+        - name: Run on Sundays
+          icon: calendar
+          description: Match the Beacon Free Loop's Sunday hours for work, church, and family visits.
+        - name: Eliminate Fares
+          icon: currency-dollar
+          description: Follow the proven model that increased Beacon Loop ridership by over 1,000%.
+
   - block: cta-image-paragraph
-    id: solutions
+    id: facts
     content:
       items:
-        - title: Build your future-proof website
-          text: As easy as 1, 2, 3!
+        - title: Beacon Free Loop Success
+          text: The proof is in the ridership numbers
           feature_icon: check
           features:
-            - "Future-proof - edit your content in text files"
-            - "Website is generated by a single app, Hugo"
-            - "No JavaScript knowledge required"
-          # Upload image to `assets/media/` and reference the filename here
+            - "Ridership jumped from 3,000 to 38,000+ after going fare-free"
+            - "City invested just $11,000/year to subsidize fares"
+            - "Sunday service added in January 2025 due to demand"
           image: build-website.png
           button:
-            text: Get Started
-            url: https://hugoblox.com/templates/
-        - title: Large Community
-          text: Join our large community on Discord - ask questions and get live responses
+            text: View Fact Sheet
+            url: "#resources"
+        - title: State Funding Supports This
+          text: Better service means more state and federal dollars
           feature_icon: bolt
           features:
-            - "Dedicated support channel"
-            - "3,000+ users on Discord"
-            - "Share your site and get feedback"
-          # Upload image to `assets/media/` and reference the filename here
+            - "NY's STOA program allocates ~$3.7M/year to DCPT based on ridership"
+            - "Governor Hochul made the 2026 bridge shuttle fare-free all year"
+            - "FTA Section 5307 formula funding increases with passenger miles"
           image: coffee.jpg
           button:
-            text: Join Discord
-            url: https://discord.gg/z8wNYzb
+            text: Read Full Research
+            url: "#resources"
     design:
-      # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+
   - block: testimonials
     content:
       title: ""
       text: ""
       items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
-          # Upload image to `assets/media/` and reference the filename here
+        - name: "Sue Serino"
+          role: "Dutchess County Executive, December 2024"
           image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+          text: "By linking our communities through public transit, we're expanding access to jobs, strengthening tourism, reducing traffic and emissions, and ensuring that residents from both sides of the Hudson River can move easily and affordably."
+        - name: "Governor Kathy Hochul"
+          role: "Announcing the fare-free bridge shuttle, December 2024"
+          image: "testimonial-1.jpg"
+          text: "Better access to fast and reliable transit is an affordability win for New Yorkers. This enhanced service will save people time, improve connections and strengthen communities."
     design:
       spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
+        padding: ["6rem", 0, "2rem", 0]
+
   - block: cta-card
+    id: take-action
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
+      title: Make Your Voice Heard
+      text: |
+        Contact County Executive Sue Serino and ask her to fund Route F improvements.
+        
+        📧 CountyExec@dutchessny.gov  •  📞 (845) 486-2000
+        
+        📍 22 Market Street, 6th Floor, Poughkeepsie, NY 12601
+        
+        #ConnectFishkill  •  #FundRouteF  •  #SundaysCount
       button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
+        text: Send an Email Now
+        url: "mailto:CountyExec@dutchessny.gov?subject=Fund%20Route%20F%20Improvements&body=Dear%20County%20Executive%20Serino%2C%0A%0AI%20am%20writing%20to%20ask%20you%20to%20improve%20DCPT%20Route%20F%20by%3A%0A%0A1.%20Extending%20the%20route%20to%20Beacon%20Metro-North%20station%0A2.%20Adding%20early%20morning%20service%20by%205%3A30%20AM%0A3.%20Implementing%20Sunday%20service%0A4.%20Eliminating%20fares%2C%20following%20the%20successful%20Beacon%20Free%20Loop%20model%0A%0AThank%20you%20for%20your%20consideration.%0A%0ASincerely%2C%0A%5BYour%20Name%5D"
     design:
       card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-300"
+        css_class: "bg-primary-700"
+        css_style: ""
+
+  - block: markdown
+    id: resources
+    content:
+      title: Resources & Downloads
+      text: |
+        ### Campaign Materials
+        - [Campaign Fact Sheet (PDF)](/files/Route-F-Fact-Sheet.pdf) — One-page summary with key statistics
+        - [Printable Flyer (PDF)](/files/Route-F-Campaign-Flyer.pdf) — Share with neighbors and post in your community
+        
+        ### Official Sources
+        - [DCPT Route F Schedule](https://www.dutchessny.gov/Departments/Public-Transit/DCPT-Route-F.htm)
+        - [Metro-North Hudson Line Schedule](https://www.mta.info/schedules)
+        - [Moving Dutchess Forward (County Transit Plan)](https://movingdutchessforward.com/)
+        - [Governor's Bridge Shuttle Announcement](https://www.governor.ny.gov/news/better-transit-hudson-valley-governor-hochul-announces-enhanced-newburgh-beacon-bridge-shuttle)
+        
+        ### Research Documents
+        - [Full demographic and transit analysis](#) — Detailed research supporting this campaign
+    design:
+      css_class: "bg-gray-100 dark:bg-gray-900"
+
+  - block: cta-card
+    content:
+      title: "Sundays Count. So Do We."
+      text: Join the campaign to connect Fishkill to opportunity.
+      button:
+        text: Take Action Now
+        url: "#take-action"
+    design:
+      card:
+        css_class: "bg-red-600"
         css_style: ""
 ---

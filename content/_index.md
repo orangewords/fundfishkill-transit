@@ -43,7 +43,7 @@ sections:
           description: |
             Bus stops at Post Office  
             —not the train station
-        - statistic: "7:30 AM"
+        - statistic: "Starts at 7:30 AM"
           description: |
             8 trains leave before  
             the first bus arrives

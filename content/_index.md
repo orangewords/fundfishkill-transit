@@ -90,13 +90,13 @@ sections:
           description: Match the Beacon Free Loop's Sunday hours for work, church, and family visits.
         - name: Extend the Route
           icon: map-pin
-          description: Reach Beacon Metro-North station—provide a true one-seat ride to rail for Fishkill commuters.
+          description: Reach Beacon Metro-North station and provide a true one-seat ride to rail for Fishkill commuters.
         - name: Start Earlier
           icon: clock
           description: Begin service by 5:30 AM so commuters can catch trains arriving in NYC by 8:00 AM.
         - name: Cover rush hour
           icon: calendar
-          description: Run buses from Beacon Metro-North during evening commuter hours - there are no buses during the 6PM hour
+          description: Run a bus from Beacon Metro-North during evening commuter hours - there are no buses during the 6PM hour
         - name: Eliminate Fares
           icon: currency-dollar
           description: Follow the proven model that increased Beacon Loop ridership by over 1,000%.

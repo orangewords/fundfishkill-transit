@@ -41,17 +41,14 @@ sections:
       items:
         - statistic: "½ Mile Short"
           description: |
-            Bus stops at the Beacon Post Office  
-            —not the Beacon Metro-North train station
-        - statistic: "Too limited for commuters"
+            Bus stops at the Beacon Post Office, not the Beacon Metro-North train station
+        - statistic: "Bad for commuting"
           description: |
-            8 trains leave before  
-            the first bus starts at 7:30AM.
-            There are no buses from Beacon to Fishkill during the 6PM hour.
+            8 trains leave before the first bus starts at 7:30AM.
+            0 buses from Beacon to Fishkill during the 6PM hour.
         - statistic: "No Sundays"
           description: |
-            Zero service for work,  
-            family, church, or errands
+            Zero service for work, family, church, or errands
     design:
       css_class: "bg-orange-50"
       spacing:

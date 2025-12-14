@@ -28,7 +28,6 @@ sections:
     id: logo-display
     content:
       title: ""
-      image: bus-logo.png
       text: |
         ![Fund Route F for Fishkill](/media/bus-logo.png)
     design:

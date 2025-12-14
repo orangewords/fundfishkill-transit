@@ -41,8 +41,8 @@ sections:
       items:
         - statistic: "½ Mile Short"
           description: |
-            Bus stops at Post Office  
-            —not the train station
+            Bus stops at the Beacon Post Office  
+            —not the Beacon Metro-North train station
         - statistic: "Too limited for commuters"
           description: |
             8 trains leave before  

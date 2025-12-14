@@ -19,20 +19,20 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
-  # Colors matching the campaign logo (navy blue and orange)
+  # Color palette: #054b7a (navy), #d94506 (orange), #000000 (black), #ffffff (white)
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     mode: light
     pack: "default"
     colors:
       primary: "#054b7a"           # Navy blue from logo
-      secondary: "#d94506"         # Orange/red accent
+      secondary: "#d94506"         # Orange accent from logo
       neutral: ""
     colors_light: {}
     colors_dark: {}
     surfaces:
-      background: ""
-      foreground: ""
+      background: "#ffffff"
+      foreground: "#000000"
       header:
         background: "#054b7a"
         foreground: "#ffffff"
@@ -57,10 +57,11 @@ hugoblox:
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
+  # No logo in header - just text navigation
   # ────────────────────────────────────────────────────────────────────────────
   header:
     enable: true
-    style: navbar
+    style: navbar-simple          # Use simple navbar without logo
     sticky: true
     align: center
     search: false

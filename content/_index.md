@@ -88,7 +88,7 @@ sections:
       items:
         - name: Run on Sundays
           icon: calendar
-          description: Match the Beacon Free Loop's Sunday hours for work, church, and family visits.
+          description: Match the Beacon Free Loop's Sunday hours for work, family visits, church, and essential errands.
         - name: Extend the Route
           icon: map-pin
           description: Reach Beacon Metro-North station and provide a true one-seat ride to rail for Fishkill commuters.

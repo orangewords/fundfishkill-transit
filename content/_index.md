@@ -41,16 +41,16 @@ sections:
       items:
         - statistic: "½ Mile Short"
           description: |
-            Bus stops at Beacon Post Office  
+            Bus stops at Post Office  
             —not the train station
-        - statistic: "7:30 AM Start"
+        - statistic: "7:30 AM"
           description: |
-            8 Metro-North trains leave  
-            before the first bus arrives
+            8 trains leave before  
+            the first bus arrives
         - statistic: "No Sundays"
           description: |
             Zero service for work,  
-            church, or family visits
+            church, or family
     design:
       css_class: "bg-orange-50"
       spacing:
@@ -60,7 +60,7 @@ sections:
     id: impact
     content:
       items:
-        - statistic: "22,000+"
+        - statistic: "22K+"
           description: |
             Fishkill residents  
             need better transit
@@ -68,7 +68,7 @@ sections:
           description: |
             of Dutchess households  
             have no car
-        - statistic: "111,000+"
+        - statistic: "111K+"
           description: |
             seniors & youth  
             who can't drive
